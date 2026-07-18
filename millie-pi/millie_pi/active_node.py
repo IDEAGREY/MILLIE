@@ -9,6 +9,8 @@ from . import __version__
 from .phone_client import PhoneClient
 from .rf_scanner import RfScanner
 
+log = logging.getLogger("millie_pi.active_node")
+
 
 class ActiveNode:
     """
