@@ -55,13 +55,16 @@ class PhoneClient:
         old = self.base_url
         self.base_url = base_url.rstrip("/")
         ok, data, _, _ = self.handshake()
-        if not ok:
-            self.base_url = old
-            return False, None
-        return True, data
+        if ok:
+            return True, data
+        ok, data, _, _ = self.fetch_state()
+        if ok and isinstance(data, dict) and "scanning" in data:
+            return True, data
+        self.base_url = old
+        return False, None
 
     @staticmethod
-    def _hosts_in_subnet(cidr: str, limit: int = 64) -> list[str]:
+    def _hosts_in_subnet(cidr: str, limit: int = 254) -> list[str]:
         net = ipaddress.ip_network(cidr, strict=False)
         hosts = []
         for i, host in enumerate(net.hosts()):

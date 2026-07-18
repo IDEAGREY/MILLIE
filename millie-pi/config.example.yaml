@@ -11,8 +11,7 @@ hub:
   data_dir: "~/.millie-pi"
 
 phone:
-  # Leave empty to auto-discover MILLIE on the LAN / USB tether.
-  url: ""
+  url: "http://192.168.1.213:8770"
   poll_seconds: 2
   discover: true
   scan_subnets:

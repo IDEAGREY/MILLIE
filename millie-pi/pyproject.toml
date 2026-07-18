@@ -21,3 +21,6 @@ millie-pi = "millie_pi.__main__:main"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["millie_pi*"]
+
+[tool.setuptools.package-data]
+millie_pi = []
