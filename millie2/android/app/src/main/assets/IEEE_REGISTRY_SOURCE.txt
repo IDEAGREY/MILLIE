@@ -1,0 +1,7 @@
+Offline snapshot: IEEE Registration Authority public assignment lists, downloaded 2026-10-15.
+
+Included registries: MA-L (24-bit), MA-M (28-bit), MA-S (36-bit), IAB (36-bit).
+Source: https://standards.ieee.org/products-programs/regauth/
+MAC address allocation overview: https://standards.ieee.org/products-programs/regauth/mac/
+
+Lookup uses longest registered prefix. Locally administered addresses are excluded from organization attribution. The IEEE record identifies the organization assigned the block; it does not identify a product or prove a device type.

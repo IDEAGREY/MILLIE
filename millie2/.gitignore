@@ -1,0 +1,10 @@
+**/.gradle/
+**/build/
+firmware/firmware/
+**/local.properties
+**/work/
+*.jks
+*.keystore
+*.p12
+*.password
+.DS_Store
