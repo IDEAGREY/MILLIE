@@ -6,15 +6,19 @@ By **idea grey**.
 
 MILLIE is an Android app for nearby Wi-Fi and Bluetooth signals. See live signal strength, inspect camera-maker and tracker signatures, and find public safety manufacturer matches, including Flock Safety and Axon/TASER. Use the phone on its own, or connect a compatible CYD over USB for additional radio observations.
 
-## Download MILLIE 2.0
+## Download MILLIE
+
+**[Download the installable MILLIE APK](https://github.com/IDEAGREY/MILLIE/releases/latest/download/MILLIE.apk)**
+
+The actual signed file is also available at the repository’s top level: **[MILLIE.apk](MILLIE.apk)**. On its GitHub file page, choose **Download raw file**. You do not need to build the source code.
 
 | Download | What it is |
 | --- | --- |
-| **[MILLIE.apk](https://github.com/IDEAGREY/MILLIE/releases/download/v2.0.14/MILLIE.apk)** | Signed Android app **2.0.14**. Start here. |
+| **[MILLIE.apk](https://github.com/IDEAGREY/MILLIE/releases/latest/download/MILLIE.apk)** | Signed Android app **2.0.14**. Start here. |
 | [MILLIE-CYD-2.0.4.bin](https://github.com/IDEAGREY/MILLIE/releases/download/v2.0.14/MILLIE-CYD-2.0.4.bin) | Optional CYD firmware **2.0.4**, for the hardware and existing flash layout described below. |
 | [Release and all downloads](https://github.com/IDEAGREY/MILLIE/releases/tag/v2.0.14) | Source packages, checksums, and installation notes. |
 
-The app and firmware have different version numbers. **Android 2.0.14 + CYD 2.0.4 is the published pair.** This MILLIE 2.0 release is separate from the older 3.x APKs in this repository.
+The app and firmware have different version numbers. **Android 2.0.14 + CYD 2.0.4 is the published pair.** These are the only current app and firmware downloads. Older installer assets have been retired; original release records, tags, and Git history remain.
 
 ## What it does
 
@@ -60,6 +64,8 @@ The CYD adds **2.4 GHz Wi-Fi management/data frame observations**, aggregated Wi
 
 The app’s scan processing and USB recovery were tested on a Moto G Play 2024 with the supported CYD. Public safety classifier tests used controlled inputs; they do not establish a real nearby Flock or Axon detection.
 
-## Older MILLIE projects
+## Project history
 
-Earlier APKs, the original sketch, Termux setup, and Raspberry Pi project remain in the repository and older releases. Their features and installation instructions do not describe MILLIE 2.0. See the [archived README](docs/legacy-README.md) or [Pi guide](docs/install-pi.md) for those versions.
+MILLIE’s GitHub repository was created on **July 15, 2026**, and its original July releases are preserved as historical records. See the [dated project history](docs/project-history.md) for links to the original commit and releases. The current Android 2.0.14 / CYD 2.0.4 downloads are newer; those versions are not being presented as the July builds.
+
+Older APKs and the superseded root CYD sketch/flasher have been removed from the current repository files and older installer release assets have been removed. Historical source remains in Git history. Earlier Pi/Termux source and the [archived README](docs/legacy-README.md) are historical references, not current Android installation instructions.

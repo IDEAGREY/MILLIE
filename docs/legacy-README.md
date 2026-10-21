@@ -1,3 +1,5 @@
+> Historical reference only. Older app downloads have been retired. Install the current signed APK from the [main README](../README.md).
+
 # MILLIE — Mobile Intelligence Live Location Intel Engine
 
 **Passive surveillance detection for Termux + ESP32 CYD**
